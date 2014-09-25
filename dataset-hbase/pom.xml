@@ -22,15 +22,15 @@
 
   <groupId>org.kitesdk.examples</groupId>
   <artifactId>dataset-hbase</artifactId>
-  <version>0.15.0</version>
+  <version>0.15.0-cdh5.2.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Kite Dataset HBase Examples</name>
 
   <parent>
     <groupId>org.kitesdk</groupId>
-    <artifactId>kite-app-parent-cdh4</artifactId>
-    <version>0.15.0</version>
+    <artifactId>kite-app-parent-cdh5</artifactId>
+    <version>0.15.0-cdh5.2.0-SNAPSHOT</version>
   </parent>
 
   <build>
@@ -79,14 +79,14 @@
     </dependency>
     <dependency>
       <groupId>org.kitesdk</groupId>
-      <artifactId>kite-hadoop-cdh4-dependencies</artifactId>
+      <artifactId>kite-hadoop-cdh5-dependencies</artifactId>
       <version>${kite.version}</version>
       <type>pom</type>
       <scope>compile</scope> <!-- provide Hadoop dependencies -->
     </dependency>
     <dependency>
       <groupId>org.kitesdk</groupId>
-      <artifactId>kite-hbase-cdh4-dependencies</artifactId>
+      <artifactId>kite-hbase-cdh5-dependencies</artifactId>
       <version>${kite.version}</version>
       <type>pom</type>
       <scope>compile</scope> <!-- provide HBase dependencies -->
